@@ -19,4 +19,4 @@ But, another?. Yes, _CSS resets_ are too hard, and other _same purpose styleshee
 
 ## Credits
 
-* By [barcia](barcia.cc)
+By [barcia](barcia.cc)
