@@ -1,6 +1,6 @@
 /* *
  * standarize.css - https://github.com/barcia/standarize
- * v0.1
+ * v0.1.1
  * Updated: 2016-04-11
  * Iván Barcia (@bartzia) - https://barcia.cc
  * MIT License
@@ -315,6 +315,11 @@ iframe {
 
 
 /*************** TABLES ***************/
+
+
+table {
+  border-collapse: collapse;
+}
 
 
 
