@@ -1,7 +1,6 @@
 /* *
  * standarize.css - https://github.com/barcia/standarize
- * v0.1.1
- * Updated: 2016-04-11
+ * v0.1.3
  * Iván Barcia (@bartzia) - https://barcia.cc
  * MIT License
  */
@@ -17,9 +16,9 @@
  * https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-tap-highlight-color
  */
 
- * {
-   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
- }
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
 
 /**
@@ -29,10 +28,9 @@
 
 :root {
   box-sizing: border-box; /* 1 */
-  cursor: default;
-
-      -ms-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  cursor: default;
 }
 
 *,
@@ -169,7 +167,7 @@ figure {
 /**
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove the outline on focused links when they are also active or hovered
- * in all browsers.
+ *    in all browsers.
  */
 
 a {
@@ -233,8 +231,8 @@ kbd {
 
 
 mark {
-  color: inherit;
   background-color: yellow;
+  color: inherit;
 }
 
 
@@ -248,7 +246,7 @@ samp {
 }
 
 small {
-  font-size: 0.85rem;
+  font-size: .85rem;
 }
 
 strong {
@@ -270,11 +268,11 @@ sup {
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: -.25em;
 }
 
 sup {
-  top: -0.5em;
+  top: -.5em;
 }
 
 
@@ -341,26 +339,14 @@ textarea {
 
 
 button {
-  overflow: visible; // Internet Explorer 11-
   text-transform: none;
-
   -webkit-appearance: button; // iOS 8+
+  overflow: visible; // Internet Explorer 11-
 }
 
 
 optgroup {
   font-weight: bold;
-}
-
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-
-button,
-input { /* 1 */
-  overflow: visible;
 }
 
 
@@ -393,9 +379,9 @@ select { /* 1 */
  */
 
 button,
-html [type="button"], /* 1 */
-[type="reset"],
-[type="submit"] {
+html [type='button'], /* 1 */
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button; /* 2 */
 }
 
@@ -405,9 +391,9 @@ html [type="button"], /* 1 */
  */
 
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
   padding: 0;
   border-style: none;
 }
@@ -418,9 +404,9 @@ button::-moz-focus-inner,
  */
 
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -434,11 +420,11 @@ button:-moz-focusring,
 
 legend {
   display: table; /* 1 */
+  box-sizing: border-box; /* 1 */
   max-width: 100%; /* 1 */
   padding: 0; /* 3 */
-  box-sizing: border-box; /* 1 */
-  white-space: normal; /* 1 */
   color: inherit; /* 2 */
+  white-space: normal; /* 1 */
 }
 
 
@@ -456,10 +442,10 @@ textarea {
  * 2. Remove the padding in IE 10-.
  */
 
-[type="checkbox"],
-[type="radio"] {
-  padding: 0; /* 2 */
+[type='checkbox'],
+[type='radio'] {
   box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 
@@ -467,8 +453,8 @@ textarea {
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -477,7 +463,7 @@ textarea {
  * Correct the odd appearance of search inputs in Chrome and Safari.
  */
 
-[type="search"] {
+[type='search'] {
   -webkit-appearance: textfield;
 }
 
@@ -487,8 +473,8 @@ textarea {
  * Safari on OS X.
  */
 
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
+[type='search']::-webkit-search-cancel-button,
+[type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -498,8 +484,8 @@ textarea {
  */
 
 ::-webkit-input-placeholder {
-  opacity: 0.54;
   color: inherit;
+  opacity: .54;
 }
 
 
@@ -516,11 +502,11 @@ summary {
 /*************** CURSORS ***************/
 
 
- *,
- *::before,
- *::after {
-   cursor: inherit;
- }
+*,
+*::before,
+*::after {
+  cursor: inherit;
+}
 
 a,
 button,
@@ -569,6 +555,6 @@ select {
   cursor: context-menu;
 }
 
-input[type="range"] {
+input[type='range'] {
   cursor: col-resize;
 }

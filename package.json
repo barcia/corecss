@@ -1,0 +1,24 @@
+{
+  "name": "standarize",
+  "version": "1.2.0",
+  "description": "Another CSS stylesheet for unify styles.",
+  "main": "standarize.scss",
+  "files": [
+    "LICENSE.md",
+    "standarize.scss"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barcia/standarize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barcia/standarize/issues"
+  },
+  "homepage": "https://github.com/barcia/standarize#readme"
+}
