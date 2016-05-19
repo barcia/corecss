@@ -8,14 +8,15 @@ But, another?. Yes, _CSS resets_ are too hard, and other _same purpose styleshee
 
 ## Getting started
 
-**Download**
+**Download**   
 [https://raw.githubusercontent.com/barcia/standarize/master/standarize.scss](https://raw.githubusercontent.com/barcia/standarize/master/standarize.scss)
 
 
 **Install with NPM**
 
-`npm install --save normalize.css`
-
+```bash
+npm install --save normalize.css
+```
 
 
 
