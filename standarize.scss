@@ -1,6 +1,6 @@
 /* *
  * standarize.css - https://github.com/barcia/standarize
- * v0.1.3
+ * v0.1.4
  * Iván Barcia (@bartzia) - https://barcia.cc
  * MIT License
  */
@@ -80,7 +80,6 @@ pre,
 section,
 summary { /* 1 */
   display: block;
-  margin: 0;
 }
 
 
@@ -133,8 +132,9 @@ table,
 address,
 form,
 figure,
+pre,
 blockquote {
-  margin-top: 0;
+  margin: 0;
 }
 
 
