@@ -1,6 +1,6 @@
 /* *
  * standarize.css - https://github.com/barcia/standarize
- * v0.1.4
+ * v0.1.5
  * Iván Barcia (@bartzia) - https://barcia.cc
  * MIT License
  */
@@ -168,6 +168,8 @@ figure {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove the outline on focused links when they are also active or hovered
  *    in all browsers.
+ * 3. Display links when the <a> element has no text value but the href
+ *    attribute has a link
  */
 
 a {
@@ -176,6 +178,10 @@ a {
   &:active,
   &:hover {
     outline-width: 0; /* 2 */
+  }
+
+  &[href^="http"]:empty::before { /* 3 */
+    content: attr(href);
   }
 }
 
@@ -540,6 +546,7 @@ input[type=datetime], {
   cursor: text;
 }
 
+label[for],
 input[type=checkbox],
 input[type=color],
 input[type=file],
@@ -557,4 +564,8 @@ select {
 
 input[type='range'] {
   cursor: col-resize;
+}
+
+[disabled] {
+  cursor: not-allowed !important;
 }
