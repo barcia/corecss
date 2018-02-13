@@ -1,7 +1,7 @@
 {
   "name": "standarize",
-  "version": "0.1.4",
-  "description": "Another CSS stylesheet for unify styles.",
+  "version": "0.3.0",
+  "description": "An unopinionated SCSS stylesheet for unify basic styles.",
   "main": "standarize.scss",
   "files": [
     "LICENSE.md",
