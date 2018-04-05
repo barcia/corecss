@@ -2,7 +2,7 @@
 
 /**!
  * standarize.css - https://github.com/barcia/standarize
- * v0.3.0
+ * v0.3.1
  * Iván Barcia (@bartzia) - https://barcia.cc
  * MIT License
  * Inspired in:
@@ -179,6 +179,7 @@ sup {
 
 img {
 	max-width: 100%;
+	height: auto;
 	vertical-align: middle;
 }
 
