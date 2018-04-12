@@ -347,12 +347,6 @@ progress {
 	cursor: inherit;
 }
 
-a,
-button,
-details {
-	cursor: pointer;
-}
-
 pre,
 code,
 kbd,
@@ -376,17 +370,6 @@ input[type='url'],
 input[type='number'],
 input[type='datetime'], {
 	cursor: text;
-}
-
-label[for],
-input[type='checkbox'],
-input[type='file'],
-input[type='image'],
-input[type='radio'],
-input[type='button'],
-input[type='reset'],
-input[type='submit'] {
-	cursor: pointer;
 }
 
 select {
