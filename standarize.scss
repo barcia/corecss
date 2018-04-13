@@ -57,6 +57,17 @@ body {
 }
 
 
+/**
+ * On iOS and MacOS user can reduce motion via settings and we can and should
+ * react to this preference
+ */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 
 /* --------------- GROUPING CONTENT --------------- */
 
@@ -177,7 +188,9 @@ sup {
 
 /* --------------- EMBEBBED CONTENT --------------- */
 
-img {
+img,
+video,
+audio {
 	max-width: 100%;
 	height: auto;
 	vertical-align: middle;
