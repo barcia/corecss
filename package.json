@@ -8,7 +8,10 @@
     "standarize.scss"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf dist/",
+    "build": "npm run clean && npm run css-sass-build && npm run css-sass-dev",
+		"css-sass-build": "node-sass --output-style compressed --error-bell standarize.scss dist/standarize.min.css --include-path 'node_modules/'",
+		"css-sass-dev": "node-sass --output-style expanded --error-bell standarize.scss dist/standarize.css --include-path 'node_modules/'"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/barcia/standarize/issues"
   },
-  "homepage": "https://github.com/barcia/standarize#readme"
+  "homepage": "https://github.com/barcia/standarize#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
 }
