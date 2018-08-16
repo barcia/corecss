@@ -18,7 +18,7 @@
 			align-items: center;
 			justify-content: space-between;
 			margin: 0;
-			background-color: #11998e;
+			background-color: hsl(175, 80%, 33%);
 		}
 
 		a {
@@ -61,6 +61,10 @@
 			margin-bottom: 30px;
 		}
 
+		.content-buttons {
+			margin-bottom: 20px;
+		}
+
 		.title {
 			font-size: 2.5rem;
 			margin-top: 0;
@@ -74,8 +78,8 @@
 
 		.button {
 			display: inline-flex;
-	    justify-content: center;
-	    align-items: center;
+	    	justify-content: center;
+	    	align-items: center;
 			height: 50px;
 			width: 150px;
 			margin: 5px;
@@ -85,6 +89,14 @@
 
 		.button svg {
 			margin-right: 5px;
+		}
+
+		.npm-code {
+			background-color: hsl(175, 60%, 33%);
+			padding: 5px 10px;
+			border-radius: 3px;
+			margin-top: 100px;
+			user-select: all;
 		}
 
 		.is-dark {
@@ -117,6 +129,7 @@
 
 		<nav class="nav">
 			<ul>
+				<li><a href="https://www.npmjs.com/package/standarize" title="Package in NPNJS.com" target="blank">NPM</a></li>
 				<li><a href="https://github.com/barcia/standarize/blob/master/README.md" title="Documentation">Docs</a></li>
 			</ul>
 		</nav>
@@ -143,11 +156,15 @@
 					</svg>
 					Download</a>
 			</div>
+			<code class="npm-code">npm install standarize --save-dev</code>
 		</main>
 
 
 		<footer class="footer">
-			<small>Created by <a href="https://barcia.cc" title="Iván Barcia's website">Iván Barcia</a> • <a href="https://raw.githubusercontent.com/barcia/standarize/master/LICENSE" title="License">MIT License</a></small>
+			<small>Created by <a href="https://barcia.cc" title="Iván Barcia's website">Iván Barcia</a> • 
+			<a href="https://raw.githubusercontent.com/barcia/standarize/master/LICENSE" title="License">MIT License</a> • 
+			<a href="https://github.com/barcia/standarize/commits/master" title="View commits">v0.3.2</a> • 
+			</small>
 		</footer>
 	</body>
 </html>
