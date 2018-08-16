@@ -5,7 +5,9 @@
   "main": "standarize.scss",
   "files": [
     "LICENSE.md",
-    "standarize.scss"
+    "standarize.scss",
+    "dist/standarize.css",
+    "dist/standarize.min.css"
   ],
   "scripts": {
     "clean": "rm -rf dist/",
