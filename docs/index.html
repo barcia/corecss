@@ -65,6 +65,11 @@
 			margin-bottom: 20px;
 		}
 
+		.content-npm {
+			display: flex;
+			flex-direction: column;
+		}
+
 		.title {
 			font-size: 2.5rem;
 			margin-top: 0;
@@ -95,7 +100,7 @@
 			background-color: hsl(175, 60%, 33%);
 			padding: 5px 10px;
 			border-radius: 3px;
-			margin-top: 100px;
+			margin-top: 5px;
 			user-select: all;
 		}
 
@@ -129,7 +134,6 @@
 
 		<nav class="nav">
 			<ul>
-				<li><a href="https://www.npmjs.com/package/standarize" title="Package in NPNJS.com" target="blank">NPM</a></li>
 				<li><a href="https://github.com/barcia/standarize/blob/master/README.md" title="Documentation">Docs</a></li>
 			</ul>
 		</nav>
@@ -156,14 +160,20 @@
 					</svg>
 					Download</a>
 			</div>
-			<code class="npm-code">npm install standarize --save-dev</code>
+			<div class="content-npm">
+				<a href="https://www.npmjs.com/package/standarize" title="NPM Package"><img src="https://badge.fury.io/js/standarize.svg" alt="npm version" height="18"></a>
+				<code class="npm-code">npm install standarize --save-dev</code>
+			</div>
+			
+			
 		</main>
 
 
 		<footer class="footer">
+			<small></small>
 			<small>Created by <a href="https://barcia.cc" title="Iván Barcia's website">Iván Barcia</a> • 
 			<a href="https://raw.githubusercontent.com/barcia/standarize/master/LICENSE" title="License">MIT License</a> • 
-			<a href="https://github.com/barcia/standarize/commits/master" title="View commits">v0.3.2</a> • 
+			<a href="https://github.com/barcia/standarize/commits/master" title="View commits">v0.3.3</a> • 
 			</small>
 		</footer>
 	</body>

@@ -1,6 +1,6 @@
 # Standarize
+[![npm version](https://badge.fury.io/js/standarize.svg)](https://badge.fury.io/js/standarize)
 A base CSS to unify styles
-
 
 ## ℹ️ About
 - Website: http://barcia.github.io/standarize/
