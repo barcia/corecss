@@ -1,8 +1,6 @@
-// sass-lint:disable no-vendor-prefixes, no-universal-selectors, no-important
-
 /**!
  * standarize.css - https://github.com/barcia/standarize
- * v0.3.3
+ * v0.4.0
  * Iván Barcia (@bartzia) - https://barcia.gal
  * MIT License
  */
@@ -17,7 +15,21 @@
  * 3. Prevent the highlight that appears over a link while it's being tapped
  */
 :root {
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Oxygen-Sans, Ubuntu, Cantarell, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	font-family:
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		Roboto,
+		'Helvetica Neue',
+		Ubuntu,
+		Cantarell,
+		'Noto Sans',
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji',
+		'Segoe UI Symbol',
+		'Noto Color Emoji';
 	cursor: default;
 	box-sizing: border-box; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
@@ -25,10 +37,9 @@
 }
 
 
-
 *,
-*::before,
-*::after {
+::before,
+::after {
 	box-sizing: inherit; /* 1 */
 }
 
@@ -54,9 +65,13 @@ body {
 }
 
 
+
+/* --------------- A11Y--------------- */
+
 /**
  * On iOS and MacOS user can reduce motion via settings and we can and should
  * react to this preference
+ * https://github.com/barcia/standarize/issues/7
  */
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -66,10 +81,11 @@ body {
 }
 
 
+
 /* --------------- GROUPING CONTENT --------------- */
 
 p {
-	margin-top: 0;
+	margin: 0;
 }
 
 
@@ -99,7 +115,6 @@ ol {
 
 
 figure {
-	width: 100%;
 	margin: 0;
 }
 
@@ -112,18 +127,6 @@ address {
 
 
 /* --------------- TEXT-LEVEL SEMANTICS --------------- */
-
-/**
- * 1. Remove the outline on focused links when they are also active or hovered
- *    in all browsers.
- */
-a:hover,
-a:focus,
-a:active {
-	outline: none; /* 1 */
-}
-
-
 
 /**
  * Add the correct text decoration in Chrome, Edge, and Safari.
@@ -183,13 +186,14 @@ sup {
 
 
 
-/* --------------- EMBEBBED CONTENT --------------- */
+/* --------------- MEDIA CONTENT --------------- */
 
 img,
 video,
-audio {
+audio,
+iframe,
+canvas {
 	max-width: 100%;
-	height: auto;
 	vertical-align: middle;
 }
 
@@ -199,6 +203,14 @@ iframe {
 	border: 0;
 }
 
+
+
+/**
+ * Change the fill color to match the text color in all browsers
+ */
+ svg {
+  fill: currentColor;
+}
 
 
 /* --------------- FORMS --------------- */
@@ -218,11 +230,11 @@ textarea {
 }
 
 
+
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-
 button,
 select { /* 1 */
 	text-transform: none;
@@ -352,8 +364,8 @@ progress {
 /* --------------- CURSORS --------------- */
 
 *,
-*::before,
-*::after {
+::before,
+::after {
 	cursor: inherit;
 }
 
@@ -390,15 +402,45 @@ input[type='range'] {
 	cursor: col-resize;
 }
 
+[aria-disabled],
 [disabled] {
 	cursor: not-allowed !important;
+}
+
+
+ [aria-busy="true"] {
+  cursor: progress;
+}
+
+[aria-controls] {
+  cursor: pointer;
 }
 
 
 
 /* --------------- INTERACTIVE --------------- */
 
+/*
+ * Add the correct display in Edge and IE.
+ */
+ details {
+  display: block;
+}
+
+
+
 summary {
 	display: list-item;
 	outline: 0;
+}
+
+
+
+/* --------------- OTHER --------------- */
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
 }
