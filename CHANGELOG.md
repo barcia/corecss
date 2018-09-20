@@ -8,11 +8,4 @@
 ### Changed
 - Add `cursor: pointer` to `<a>`, `<button>` (And some inputs) and `<summary>` #10
 - Remove `<summary>`styles #15
-- `<figure>`: Add `max-width: 100%`; #8
-
-
-### Deprecated
-
-### Removed
-
-### Bug Solved
+- Add `max-width: 100%` to `<figure>` #8
