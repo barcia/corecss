@@ -3,6 +3,7 @@
 - CHANGELOG.md file #11
 - Add tags in package.json #12
 - Add custom property for system font-family #14
+- Remove `<summary>`styles #15
 
 ### Changed
 
