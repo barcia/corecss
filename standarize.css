@@ -419,6 +419,13 @@ input[type='range'] {
   cursor: progress;
 }
 
+a,
+button,
+summary,
+input[type='submit'],
+input[type='button'],
+input[type='reset'],
+[role='button'],
 [aria-controls] {
   cursor: pointer;
 }

@@ -4,6 +4,7 @@
 - Add tags in package.json #12
 - Add custom property for system font-family #14
 - Remove `<summary>`styles #15
+- Add `cursor: pointer` to `<a>`, `<button>` (And some inputs) and `<summary>` #10
 
 ### Changed
 
