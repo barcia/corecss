@@ -2,12 +2,12 @@
 [![npm version](https://badge.fury.io/js/standarize.svg)](https://badge.fury.io/js/standarize)
 A base CSS to unify styles
 
-## ℹ️ About
+## About
 - Website: http://barcia.github.io/standarize/
 - Repository: https://github.com/barcia/standarize
 - Issues: https://github.com/barcia/standarize/issues
 
-## 🛫 Getting Started
+## Getting Started
 
 1. [Download the last release](https://github.com/barcia/standarize/releases/latest) or install it with **npm**:
 ```shell
@@ -19,7 +19,7 @@ npm install standarize --save-dev
 
 
 
-## 🤓 Credits
+## Credits
 Developed by Iván Barcia and strongly inspired in other projects   
 [Web](https://barcia.gal) · [Email](mailto:ivan@barcia.gal) · [Twitter](http://www.twitter.com/bartzia) · [GitHub](http://www.github.com/barcia)
 
@@ -29,5 +29,5 @@ Developed by Iván Barcia and strongly inspired in other projects
  * [Bootstrap reboot.scss](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_reboot.scss)
 
 
-## 📄 License
+## License
 This project is under [MIT License](https://github.com/barcia/bramework/blob/master/LICENSE)
