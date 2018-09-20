@@ -16,8 +16,20 @@
     "type": "git",
     "url": "git+https://github.com/barcia/standarize.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "css",
+    "base",
+    "standarize",
+    "normalize",
+    "sanitize",
+    "reset",
+    "css reset"
+  ],
+  "author": {
+		"name": "Iván Barcia",
+		"email": "ivan@barcia.gal",
+		"url": "https://barcia.gal"
+	},
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/barcia/standarize/issues"
