@@ -1,21 +1,15 @@
 /**!
  * standarize.css - https://github.com/barcia/standarize
- * v0.4.0
+ * v1.1.0
  * Iván Barcia (@bartzia) - https://barcia.gal
  * MIT License
  */
 
 
-
-/* --------------- DOCUMENT --------------- */
-
-/**
- * 1. https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
- * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
- * 3. Prevent the highlight that appears over a link while it's being tapped
- */
+/* --------------- CUSTOM PROPERTIES --------------- */
 :root {
-	font-family:
+	/* System font-family */
+	--systemFontFamily: 
 		system-ui,
 		-apple-system,
 		BlinkMacSystemFont,
@@ -30,6 +24,19 @@
 		'Segoe UI Emoji',
 		'Segoe UI Symbol',
 		'Noto Color Emoji';
+}
+
+
+
+/* --------------- DOCUMENT --------------- */
+
+/**
+ * 1. https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ * 3. Prevent the highlight that appears over a link while it's being tapped
+ */
+:root {
+	font-family: var(--systemFontFamily);
 	cursor: default;
 	box-sizing: border-box; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
