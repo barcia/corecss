@@ -26,10 +26,10 @@
     "css reset"
   ],
   "author": {
-		"name": "Iván Barcia",
-		"email": "ivan@barcia.gal",
-		"url": "https://barcia.gal"
-	},
+    "name": "Iván Barcia",
+    "email": "ivan@barcia.gal",
+    "url": "https://barcia.gal"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/barcia/standarize/issues"
