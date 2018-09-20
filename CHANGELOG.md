@@ -3,10 +3,12 @@
 - CHANGELOG.md file #11
 - Add tags in package.json #12
 - Add custom property for system font-family #14
-- Remove `<summary>`styles #15
-- Add `cursor: pointer` to `<a>`, `<button>` (And some inputs) and `<summary>` #10
+
 
 ### Changed
+- Add `cursor: pointer` to `<a>`, `<button>` (And some inputs) and `<summary>` #10
+- Remove `<summary>`styles #15
+- `<figure>`: Add `max-width: 100%`; #8
 
 
 ### Deprecated
