@@ -1,6 +1,6 @@
 {
   "name": "standarize",
-  "version": "0.3.0",
+  "version": "0.3.9",
   "description": "An unopinionated SCSS stylesheet for unify basic styles.",
   "main": "standarize.scss",
   "files": [
