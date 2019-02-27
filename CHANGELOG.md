@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [1.2.0](https://github.com/barcia/REPO/compare/v1.1.0...v1.2.0) - 2019-02-27
+## [2.0.0](https://github.com/barcia/REPO/compare/v1.1.0...v2.0.0) - 2019-02-27
 ### Added
 - .editorconfig
 ### Changed
