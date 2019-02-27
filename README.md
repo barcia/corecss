@@ -6,20 +6,20 @@ A CSS base to unify styles
 
 ## Getting Started
 
-1. Get standarize.css
+### 1. Get standarize.css
 
   * [Download the last release](https://github.com/barcia/standarize/releases/latest)
 
   * Install it with **npm**:
-  ```shell
-  npm install standarize --save-dev
-  ```
+    ```shell
+    npm install standarize --save-dev
+    ```
 
   * Add it with a CDN
-  ```html
-  <link rel="stylesheet" href="https://unpkg.com/standarize">
-  ```
-2. Import/paste *standarize.css* at the **first** of your code.
+    ```html
+    <link rel="stylesheet" href="https://unpkg.com/standarize">
+    ```
+### 2. Import/paste *standarize.css* at the **first** of your code.
 
 > **Tip:** If yout import `standarize.css` in a `.scss` file without `.css` extension, it is merged with your code as a `.scss` file.
 
