@@ -1,21 +1,18 @@
 {
   "name": "standarize",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Another CSS stylesheet for unify styles.",
-  "main": "standarize.css",
+	"author": "Iván Barcia <ivan@barcia.gal> (https://barcia.gal)",
+	"license": "MIT",
+  "homepage": "http://barcia.github.io/standarize",
+	"repository": "github:barcia/standarize",
+  "bugs": "https://github.com/barcia/standarize/issues",
+	"main": "standarize.css",
+	"style": "standarize.css",
   "files": [
     "LICENSE.md",
-    "standarize.css",
-    "standarize.min.css"
+    "standarize.css"
   ],
-  "scripts": {
-    "css-postcss-build": "postcss --no-map --use cssnano --output standarize.min.css standarize.css",
-    "build": "npm run css-postcss-build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/barcia/standarize.git"
-  },
   "keywords": [
     "css",
     "base",
@@ -24,20 +21,5 @@
     "sanitize",
     "reset",
     "css reset"
-  ],
-  "author": {
-    "name": "Iván Barcia",
-    "email": "ivan@barcia.gal",
-    "url": "https://barcia.gal"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/barcia/standarize/issues"
-  },
-  "homepage": "https://github.com/barcia/standarize#readme",
-  "devDependencies": {
-    "cssnano": "^4.1.0",
-    "postcss": "^7.0.2",
-    "postcss-cli": "^6.0.0"
-  }
+	]
 }

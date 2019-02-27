@@ -1,30 +1,9 @@
 /**!
  * standarize.css - https://github.com/barcia/standarize
- * v1.1.0
+ * v1.2.0
  * Iván Barcia (@bartzia) - https://barcia.gal
  * MIT License
  */
-
-
-/* --------------- CUSTOM PROPERTIES --------------- */
-:root {
-	/* System font-family */
-	--systemFontFamily: 
-		system-ui,
-		-apple-system,
-		BlinkMacSystemFont,
-		'Segoe UI',
-		Roboto,
-		'Helvetica Neue',
-		Ubuntu,
-		Cantarell,
-		'Noto Sans',
-		sans-serif,
-		'Apple Color Emoji',
-		'Segoe UI Emoji',
-		'Segoe UI Symbol',
-		'Noto Color Emoji';
-}
 
 
 
@@ -36,13 +15,28 @@
  * 3. Prevent the highlight that appears over a link while it's being tapped
  */
 :root {
+	--systemFontFamily:
+	system-ui,
+	-apple-system,
+	BlinkMacSystemFont,
+	'Segoe UI',
+	Roboto,
+	'Helvetica Neue',
+	Ubuntu,
+	Cantarell,
+	'Noto Sans',
+	sans-serif,
+	'Apple Color Emoji',
+	'Segoe UI Emoji',
+	'Segoe UI Symbol',
+	'Noto Color Emoji';
+
 	font-family: var(--systemFontFamily);
 	cursor: default;
 	box-sizing: border-box; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 	-webkit-tap-highlight-color: hsla(0, 0%, 0%, 0); /* 3 */
 }
-
 
 *,
 ::before,
@@ -61,19 +55,7 @@ body {
 
 
 
-/**
- * Suppress the focus outline on elements that cannot be accessed via keyboard.
- * This prevents an unwanted focus outline from appearing around elements that
- * might still respond to pointer events.
- * Credits: https://github.com/suitcss/base
- */
-[tabindex='-1']:focus {
-	outline: none !important;
-}
-
-
-
-/* --------------- A11Y--------------- */
+/* --------------- ACCESSIBILITY--------------- */
 
 /**
  * On iOS and MacOS user can reduce motion via settings and we can and should
@@ -81,21 +63,15 @@ body {
  * https://github.com/barcia/standarize/issues/7
  */
 @media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
-  }
+	* {
+		animation: none;
+		transition: none;
+	}
 }
 
 
 
 /* --------------- GROUPING CONTENT --------------- */
-
-p {
-	margin: 0;
-}
-
-
 
 /**
  * 1. Add the correct height in Firefox.
@@ -216,9 +192,10 @@ iframe {
 /**
  * Change the fill color to match the text color in all browsers
  */
- svg {
-  fill: currentColor;
+svg {
+	fill: currentColor;
 }
+
 
 
 /* --------------- FORMS --------------- */
@@ -257,23 +234,6 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-	-webkit-appearance: button;
-}
-
-/**
- * Remove inner shadow in iOS and Safari
- */
-textarea,
-[type='email'],
-[type='password'],
-[type='search'],
-[type='tel'],
-[type='text'],
-[type='url'],
-[type='number'],
-[type='week'],
-[type='datetime'],
-input[list], {
 	-webkit-appearance: button;
 }
 
@@ -398,7 +358,7 @@ input[type='tel'],
 input[type='text'],
 input[type='url'],
 input[type='number'],
-input[type='datetime'], {
+input[type='datetime'] {
 	cursor: text;
 }
 
@@ -410,14 +370,13 @@ input[type='range'] {
 	cursor: col-resize;
 }
 
-[aria-disabled],
 [disabled] {
-	cursor: not-allowed !important;
+	cursor: not-allowed;
 }
 
 
- [aria-busy="true"] {
-  cursor: progress;
+[aria-busy="true"] {
+	cursor: progress;
 }
 
 a,
@@ -428,7 +387,7 @@ input[type='button'],
 input[type='reset'],
 [role='button'],
 [aria-controls] {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 
@@ -438,8 +397,8 @@ input[type='reset'],
 /*
  * Add the correct display in Edge and IE.
  */
- details {
-  display: block;
+details {
+	display: block;
 }
 
 
@@ -450,5 +409,5 @@ input[type='reset'],
  * Add the correct display in IE 10.
  */
 [hidden] {
-  display: none;
+	display: none;
 }

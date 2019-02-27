@@ -1,11 +1,8 @@
 # Standarize
-[![npm version](https://badge.fury.io/js/standarize.svg)](https://badge.fury.io/js/standarize)
-A base CSS to unify styles
+A CSS base to unify styles
+[!https://img.shields.io/github/package-json/v/barcia/standarize.svg]
+[!https://img.shields.io/github/license/barcia/standarize.svg]
 
-## About
-- Website: http://barcia.github.io/standarize/
-- Repository: https://github.com/barcia/standarize
-- Issues: https://github.com/barcia/standarize/issues
 
 ## Getting Started
 
@@ -20,7 +17,7 @@ npm install standarize --save-dev
 
 
 ## Credits
-Developed by Iván Barcia and strongly inspired in other projects   
+Developed by Iván Barcia and strongly inspired in other projects
 [Web](https://barcia.gal) · [Email](mailto:ivan@barcia.gal) · [Twitter](http://www.twitter.com/bartzia) · [GitHub](http://www.github.com/barcia)
 
  * [normalize.css](https://github.com/necolas/normalize.css)
