@@ -1,5 +1,5 @@
 # Standarize
-A CSS base to unify styles   
+A CSS base to unify styles
 ![Version](https://img.shields.io/github/package-json/v/barcia/standarize.svg)
 ![License](https://img.shields.io/github/license/barcia/standarize.svg)
 
@@ -27,7 +27,7 @@ A CSS base to unify styles
 
 ## Credits
 Developed by Iván Barcia and strongly inspired in other projects
-[Web](https://barcia.gal) · [Email](mailto:ivan@barcia.gal) · [Twitter](http://www.twitter.com/bartzia) · [GitHub](http://www.github.com/barcia)
+[Web](https://barcia.dev) · [Email](mailto:ivan@barcia.dev) · [Twitter](http://www.twitter.com/bartzia) · [GitHub](http://www.github.com/barcia)
 
  * [normalize.css](https://github.com/necolas/normalize.css)
  * [sanitize.css](https://github.com/csstools/sanitize.css)

@@ -1,8 +1,8 @@
 {
   "name": "standarize",
-  "version": "1.2.0",
+  "version": "2.0.1",
   "description": "Another CSS stylesheet for unify styles.",
-	"author": "Iván Barcia <ivan@barcia.gal> (https://barcia.gal)",
+	"author": "Iván Barcia <ivan@barcia.dev> (https://barcia.dev)",
 	"license": "MIT",
   "homepage": "http://barcia.github.io/standarize",
 	"repository": "github:barcia/standarize",

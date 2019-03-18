@@ -1,6 +1,6 @@
 /**!
  * standarize.css - https://github.com/barcia/standarize
- * v1.2.0
+ * v2.0.1
  * Iván Barcia (@bartzia) - https://barcia.gal
  * MIT License
  */
@@ -86,13 +86,6 @@ hr {
 
 pre {
 	overflow-x: auto;
-}
-
-
-
-ul,
-ol {
-	list-style-position: inside;
 }
 
 

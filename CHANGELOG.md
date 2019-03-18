@@ -1,7 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [2.0.0](https://github.com/barcia/standarize/compare/v1.1.0...v2.0.0) - 2019-02-27
+## 2.0.1 - 2019-03-18
+### Changed
+- Remove `list-style-position: inside` for `ul` and `ol`.
+
+## 2.0.0 - 2019-02-27
 ### Added
 - .editorconfig
 ### Changed
