@@ -4,8 +4,7 @@ All notable changes to this project will be documented in this file.
 ## 2.0.2 -
 ### Added
 - Table max-width
-### Changed
-- Remove `list-style-position: inside` for `ul` and `ol`.
+- Embed and Object as media content
 
 ## 2.0.1 - 2019-03-18
 ### Changed
