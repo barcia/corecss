@@ -1,10 +1,15 @@
 # Changelog
-All notable changes to this project will be documented in this file.
 
-## 2.0.2 -
+## 3.0.0 - 2019-03-21
 ### Added
 - Table max-width
 - Embed and Object as media content
+### Removed
+- Most of comments
+- SVG fill to currentColor
+- Some exclusive Firefox old styles
+- Fieldset and legend padding corrections
+- Custom property for font-family of system
 
 ## 2.0.1 - 2019-03-18
 ### Changed
