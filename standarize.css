@@ -102,6 +102,9 @@ address {
 }
 
 
+table {
+	max-width: 100%;
+}
 
 /* --------------- TEXT-LEVEL SEMANTICS --------------- */
 
