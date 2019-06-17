@@ -221,7 +221,7 @@ input[type='submit'],
 input[type='button'],
 input[type='reset'],
 [role='button'],
-[aria-controls] {
+[role='link'] {
 	cursor: pointer;
 }
 
