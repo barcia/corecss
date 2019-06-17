@@ -1,5 +1,15 @@
 # Changelog
 
+## 3.0.1 - 2019-06-17
+### Added
+- Cursor: pointer for `[role='link']`
+
+### Changed
+- Fixed cursor for disabled inputs ([#18](https://github.com/barcia/standarize/issues/18))
+
+### Removed
+- Cursor: pointer for `[aria-controls]`
+
 ## 3.0.0 - 2019-03-21
 ### Added
 - Table max-width

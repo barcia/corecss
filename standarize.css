@@ -1,6 +1,6 @@
 /**!
  * standarize.css - https://github.com/barcia/standarize
- * v3.0.0
+ * v3.0.1
  * Iván Barcia (@bartzia) - https://barcia.dev
  * MIT License
  */
@@ -49,7 +49,6 @@ pre {
 }
 
 figure {
-	margin: 0;
 	max-width: 100%;
 	margin: 0;
 }
