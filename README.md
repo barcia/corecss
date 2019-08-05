@@ -34,6 +34,7 @@ Developed by Iván Barcia and strongly inspired in other projects
  * [modern-normalize](https://github.com/sindresorhus/modern-normalize)
  * [Bootstrap reboot.scss](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_reboot.scss)
 
+Project tested on [BrowserStack](https://www.browserstack.com/)
 
 ## License
 This project is under [MIT License](https://github.com/barcia/bramework/blob/master/LICENSE)
