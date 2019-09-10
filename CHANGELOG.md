@@ -6,6 +6,7 @@
 
 ### Changed
 - Split the source code in Scss files
+- Set address default font to inherit ([#19](https://github.com/barcia/standarize/issues/19))
 
 ### Removed
 
