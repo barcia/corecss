@@ -1,5 +1,15 @@
 # Changelog
 
+## 4.0.0
+### Added
+- webkit-font-smoothing: antialiased ([#20](https://github.com/barcia/standarize/issues/20))
+
+### Changed
+- Split the source code in Scss files
+
+### Removed
+
+
 ## 3.0.1 - 2019-06-17
 ### Added
 - Cursor: pointer for `[role='link']`
