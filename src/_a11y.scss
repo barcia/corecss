@@ -1,0 +1,11 @@
+/* ACCESSIBILITY */
+
+/**
+ * https://github.com/barcia/standarize/issues/7
+ */
+ @media (prefers-reduced-motion: reduce) {
+	* {
+		animation: none;
+		transition: none;
+	}
+}

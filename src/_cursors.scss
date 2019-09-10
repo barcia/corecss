@@ -1,0 +1,60 @@
+/* CURSORS */
+
+*,
+::before,
+::after {
+	cursor: inherit;
+}
+
+pre,
+code,
+kbd,
+samp,
+var {
+	cursor: text;
+}
+
+abbr[title],
+dfn[title] {
+	cursor: help;
+}
+
+textarea,
+input[type='email'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='url'],
+input[type='number'],
+input[type='datetime'] {
+	cursor: text;
+}
+
+select {
+	cursor: context-menu;
+}
+
+input[type='range'] {
+	cursor: col-resize;
+}
+
+[disabled] {
+	cursor: not-allowed !important;
+}
+
+
+[aria-busy="true"] {
+	cursor: progress;
+}
+
+a,
+button,
+summary,
+input[type='submit'],
+input[type='button'],
+input[type='reset'],
+[role='button'],
+[role='link'] {
+	cursor: pointer;
+}

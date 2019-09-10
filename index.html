@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <title>HTML5 Elements</title>
+	<link rel="stylesheet" href="./dist/standarize.css">
+	<style>
+		/* stylelint-disable */
+		.styleguide-title,
+		.styleguide-subtitle {
+			margin-top: 1.5em !important;
+			padding: 2px 10px;
+			border-radius: 3px;
+		}
+
+		.styleguide-title {
+			color: hsla(0, 0%, 100%, 0.8);
+			background-color: #5c7cfa;
+		}
+
+		.styleguide-subtitle {
+			color: hsla(0, 0%, 0%, 0.5);
+			background-color: #bac8ff;
+		}
+
+		body {
+			width: 100%;
+			max-width: 700px;
+			padding: 0 10px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+
+<body  id="body">
+  <header class="styleguide-header">
+    <h1>HTML5 Styleguide</h1>
+    <nav>
+      <ol>
+        <li><a href="#sections">Sections</a></li>
+        <li><a href="#grouping-content">Grouping content</a></li>
+        <li><a href="#text-level-semantics">Text-level semantics</a></li>
+        <li><a href="#embebbed-content">Embedded content</a></li>
+        <li><a href="#tables">Tables</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#interactive">Interactive</a></li>
+      </ol>
+      <footer class="styleguide-credits">
+        <ul>
+          <li><a href="https://www.w3.org/wiki/HTML/Elements" target="_blank">W3C - HTML Elements</a></li>
+          <li><a href="https://docs.webplatform.org/wiki/html/elements" target="_blank">Web Platform - HTML Elements</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">Developer Mozilla - HTML Elements</a></li>
+        </ul>
+      </footer>
+    </nav>
+  </header>
+
+  <main class="styleguide-main">
+
+    <section id="sections">
+
+      <h1 class="styleguide-title">Sections</h1>
+
+
+      <h2 class="styleguide-subtitle">Headings</h2>
+      <h1>Heading H1</h1>
+      <h2>Heading H2</h2>
+      <h3>Heading H3</h3>
+      <h4>Heading H4</h4>
+      <h5>Heading H5</h5>
+      <h6>Heading H6</h6>
+
+      <h2 class="styleguide-subtitle">Headings with paragraphs</h2>
+      <h1>Heading H1</h1>
+      <p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+      <h2>Heading H2</h2>
+      <p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+      <h3>Heading H3</h3>
+      <p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+      <h4>Heading H4</h4>
+      <p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+      <h5>Heading H5</h5>
+      <p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+      <h6>Heading H6</h6>
+      <p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+
+      <h2 class="styleguide-subtitle">Paragraphs</h2>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent
+        mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor.</p>
+      <p>Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor.</p>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent
+        mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor.</p>
+
+    </section>
+
+
+
+    <section id="grouping-content">
+
+      <h1 class="styleguide-title">Grouping content</h1>
+
+
+      <h2 class="styleguide-subtitle">Horizontal line</h2>
+      <hr>
+
+
+      <h2 class="styleguide-subtitle">Blockquote</h2>
+      <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote -->
+      <blockquote cite="A URL for the source of the quotation">
+        "This is a blockquote. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus.
+        nisl."
+        <footer>
+          <cite>-<a href="#">The author</a></cite>
+        </footer>
+      </blockquote>
+
+
+      <h2 class="styleguide-subtitle">Unordered list</h2>
+      <ul>
+        <li>first item</li>
+        <li>second item      <!-- Look, the closing </li> tag is not placed here! -->
+          <ul>
+            <li>second item first subitem</li>
+            <li>second item second subitem      <!-- Same for the second nested unordered list! -->
+              <ul>
+                <li>second item second subitem first sub-subitem</li>
+                <li>second item second subitem second sub-subitem</li>
+                <li>second item second subitem third sub-subitem</li>
+              </ul>
+            </li>           <!-- Closing </li> tag for the li that contains the third unordered list -->
+            <li>second item third subitem</li>
+          </ul>
+        </li>               <!-- Here is the closing </li> tag -->
+        <li>third item</li>
+      </ul>
+
+      <h2 class="styleguide-subtitle">Ordered list (default)</h2>
+      <ol>
+        <li>first item</li>
+        <li>second item      <!-- Look, the closing </li> tag is not placed here! -->
+          <ol>
+            <li>second item first subitem</li>
+            <li>second item second subitem      <!-- Same for the second nested unordered list! -->
+              <ol>
+                <li>second item second subitem first sub-subitem</li>
+                <li>second item second subitem second sub-subitem</li>
+                <li>second item second subitem third sub-subitem</li>
+              </ol>
+            </li>           <!-- Closing </li> tag for the li that contains the third unordered list -->
+            <li>second item third subitem</li>
+          </ol>
+        </li>               <!-- Here is the closing </li> tag -->
+        <li>third item</li>
+      </ol>
+
+      <h2 class="styleguide-subtitle">Ordered list (reverse)</h2>
+      <ol reversed>
+        <li>item of reversed list</li>
+        <li>item of reversed list</li>
+        <li>item of reversed list</li>
+      </ol>
+
+      <h2 class="styleguide-subtitle">Ordered list (start in 14)</h2>
+      <ol start="14">
+        <li>this list start in other number</li>
+        <li>this list start in other number</li>
+        <li>this list start in other number</li>
+      </ol>
+
+      <h2 class="styleguide-subtitle">Ordered list (letters)</h2>
+      <ol type="a">
+        <li>lowercase letters list</li>
+        <li>lowercase letters list</li>
+        <li>lowercase letters list</li>
+      </ol>
+
+      <h2 class="styleguide-subtitle">Ordered list (letter uppercase)</h2>
+      <ol type="A">
+        <li>uppercase letters list</li>
+        <li>uppercase letters list</li>
+        <li>uppercase letters list</li>
+      </ol>
+
+      <h2 class="styleguide-subtitle">Ordered list (roman)</h2>
+      <ol type="i">
+        <li>lowercase Roman numerals list</li>
+        <li>lowercase Roman numerals list</li>
+        <li>lowercase Roman numerals list</li>
+      </ol>
+
+      <h2 class="styleguide-subtitle">Ordered list (roman uppercase)</h2>
+      <ol type="I">
+        <li>uppercase Roman numerals list</li>
+        <li>uppercase Roman numerals list</li>
+        <li>uppercase Roman numerals list</li>
+      </ol>
+
+
+      <h2 class="styleguide-subtitle">Description list</h2>
+      <dl>
+        <dt>Firefox</dt>
+        <dt>Mozilla Firefox</dt>
+        <dd>A free, open source, cross-platform, graphical web browser
+            developed by the Mozilla Corporation and hundreds of volunteers.</dd>
+
+        <!-- other terms and definitions -->
+      </dl>
+
+
+      <h2 class="styleguide-subtitle">Figure, figcaption & pre</h2>
+      <figure>
+<pre><code>! " # $ % & ' ( ) * + , - . /
+0 1 2 3 4 5 6 7 8 9 : ; < = > ?
+@ A B C D E F G H I J K L M N O
+P Q R S T U V W X Y Z [ \ ] ^ _
+` a b c d e f g h i j k l m n o
+p q r s t u v w x y z { | } ~
+</code></pre>
+        <figcaption>Figcaption in a code snippet</figcaption>
+      </figure>
+
+      <h2 class="styleguide-subtitle">Address</h2>
+
+      <address>
+        You may also want to visit us:<br>
+          Mozilla Foundation<br>
+          1981 Landings Drive<br>
+          Building K<br>
+          Mountain View, CA 94043-0801<br>
+          USA
+      </address>
+
+    </section>
+
+
+
+    <section id="text-level-semantics">
+
+      <h1 class="styleguide-title">Text-level semantics</h1>
+
+      <p>The <a href="#" title="The link title" target="_blank">a element</a> example</p>
+
+      <p>The <abbr>abbr element</abbr> and an <abbr title="Abbreviation">abbr</abbr> element with title examples</p>
+
+      <p>The <b>b element</b> element</p>
+
+      <p>The <bdi>bdi element</bdi> element</p>
+
+      <p>The <bdo dir="rtl">bdo element</bdo> element</p>
+
+      <p>The <br> br element</p>
+
+      <p>The <cite>cite</cite> element</p>
+
+      <p>The <code class="syntax-grey">code</code> element</p>
+
+      <p>The <data value="297554859">data</data> element</p>
+
+      <p>The <del cite="A URI for a resource that explains the change" datetime="2014-10-16 19:00">del</del> element</p>
+
+      <p>The <dfn title="Here the dfn value">dfn</dfn> element</p>
+
+      <p>The <em>em</em> element</p>
+
+      <p>The <i>i</i> element</p>
+
+      <p>The <ins cite="A URI for a resource that explains the change" datetime="2015-10-09">ins</ins> element</p>
+
+      <p>The <kbd>kbd</kbd> element</p>
+
+      <p>The <mark>mark</mark> element</p>
+
+      <p>The <q cite="The link to quote author">q</q> element</p>
+
+      <p>The ruby, rp, rt and rtc elements<br>
+      <ruby>
+        漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+        字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+        <rtc>San Francisco</rtc>
+      </ruby>
+      </p>
+
+      <p>The <s>s (Strikethrough)</s> element</p>
+
+      <p>The <samp>samp</samp> element</p>
+
+      <p>The <small>small</small> element</p>
+
+      <p>The <span>span</span> element</p>
+
+      <p>The <strong>strong</strong> element</p>
+
+      <p>The <sub>sub</sub> element</p>
+
+      <p>The <sup>sup</sup> element</p>
+
+      <p>The time <time datetime="2016-03-30T22:00">22:00</time> element</p>
+
+      <p>The <u>u (Unarticulated)</u> element</p>
+
+      <p>The <var>var</var> element</p>
+
+			<p>The wbr element can split a long<wbr>.word</p>
+
+			<button>Button</button>
+			<a href="" role="button">A Button</a>
+			<span role="button" tabindex="0">Span Button</span>
+
+    </section>
+
+
+
+    <section id="embebbed-content">
+
+      <h1 class="styleguide-title">Embedded content</h1>
+
+      <h2 class="styleguide-subtitle">img</h2>
+      <img alt="Placeholder Image and Some Alt Text" src="http://placehold.it/350x150" title="A title element for this placeholder image.">
+
+      <h2 class="styleguide-subtitle">img with figure</h2>
+      <figure>
+        <img alt="Placeholder Image and Some Alt Text" src="http://placehold.it/350x150" title="A title element for this placeholder image.">
+        <figcaption>A img with figcaption, by
+          <cite>the author</cite>
+        </figcaption>
+      </figure>
+
+      <h2 class="styleguide-subtitle">responsive img with figure</h2>
+      <figure>
+        <picture>
+          <source media="(min-width: 1200px)" srcset="http://placehold.it/1000x150" type="image/png">
+          <source media="(min-width: 500px)" srcset="http://placehold.it/500x150" type="image/png">
+          <img srcset="http://placehold.it/300x150" alt="Alt text" title="img title">
+        </picture>
+        <figcaption>A responsive img</figcaption>
+      </figure>
+
+      <h2 class="styleguide-subtitle">Audio</h2>
+      <figure>
+        <audio src="foo.ogg" controls>
+          <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+          <source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+        </audio>
+      </figure>
+
+
+      <h2 class="styleguide-subtitle">Video</h2>
+      <figure>
+        <video width="320" height="240" controls>
+          <source src="http://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+          <source src="http://www.w3schools.com/tags/movie.ogg" type="video/ogg">
+          <p>Your browser does not support the HTML5 video tag.</p>
+        </video>
+      </figure>
+
+      <h2 class="styleguide-subtitle">Video with track elements</h2>
+      <figure>
+        <video controls poster="/images/sample.gif">
+          <source src="http://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+          <source src="http://www.w3schools.com/tags/movie.ogg" type="video/ogg">
+          <track kind="captions" src="sampleCaptions.vtt" srclang="en">
+          <track kind="descriptions" src="sampleDescriptions.vtt" srclang="en">
+          <track kind="chapters" src="sampleChapters.vtt" srclang="en">
+          <track kind="subtitles" src="sampleSubtitles_de.vtt" srclang="de">
+          <track kind="subtitles" src="sampleSubtitles_en.vtt" srclang="en">
+          <track kind="subtitles" src="sampleSubtitles_ja.vtt" srclang="ja">
+          <track kind="subtitles" src="sampleSubtitles_oz.vtt" srclang="oz">
+          <track kind="metadata" src="keyStage1.vtt" srclang="en" label="Key Stage 1">
+          <track kind="metadata" src="keyStage2.vtt" srclang="en" label="Key Stage 2">
+          <track kind="metadata" src="keyStage3.vtt" srclang="en" label="Key Stage 3">
+          <!-- Fallback -->
+          <p>Your browser does not support the HTML5 video tag.</p>
+        </video>
+      </figure>
+
+      <h2 class="styleguide-subtitle">Canvas</h2>
+      <canvas>canvas</canvas>
+
+      <h2 class="styleguide-subtitle">SVG</h2>
+      <svg width="100px" height="100px"><circle cx="100" cy="100" r="100" fill="#4183D7"></circle></svg>
+
+      <h2 class="styleguide-subtitle">Iframe</h2>
+      <iframe src="http://example.com/" height="300"></iframe>
+
+    </section>
+
+
+
+    <section id="tables">
+
+      <h1 class="styleguide-title">Tables</h1>
+
+      <table>
+        <caption>Table title</caption>
+        <thead>
+          <tr>
+            <th>Table Header 1</th>
+            <th>Table Header 2</th>
+            <th>Table Header 3</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Total 1</td>
+            <td>Total 2</td>
+            <td>Total 3</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td>Division 1</td>
+            <td>Division 2</td>
+            <td>Division 3</td>
+          </tr>
+          <tr>
+            <td>Division 1</td>
+            <td>Division 2</td>
+            <td>Division 3</td>
+          </tr>
+          <tr>
+            <td>Division 1</td>
+            <td>Division 2</td>
+            <td>Division 3</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+
+
+
+    <section id="forms">
+
+      <h1 class="styleguide-title">Forms</h1>
+
+      <form>
+        <fieldset>
+          <legend>Input fields</legend>
+          <p>
+            <label for="input_text">Text Input</label>
+            <input id="input_text" type="text" autocomplete="username" placeholder="Text Input">
+          </p>
+          <p>
+            <label for="input_text_d">Text Input Disabled</label>
+            <input id="input_text_d" type="text" placeholder="Text Input" disabled>
+          </p>
+          <p>
+            <label for="input_password">Password</label>
+            <input id="input_password" type="password" placeholder="Type your Password">
+          </p>
+          <p>
+            <label for="input_webaddress">Web Address</label>
+            <input id="input_webaddress" type="url" placeholder="http://yoursite.com" autocomplete="url">
+          </p>
+          <p>
+            <label for="input_emailaddress">Email Address</label>
+            <input id="input_emailaddress" type="email" placeholder="name@email.com" autocomplete="email">
+          </p>
+          <p>
+            <label for="input_phone">Phone Number</label>
+            <input id="input_phone" type="tel" placeholder="666 999 666" autocomplete="tel">
+          </p>
+          <p>
+            <label for="input_search">Search</label>
+            <input id="input_search" type="search" results="5" placeholder="Enter Search Term">
+          </p>
+          <p>
+            <label for="input_text2">Number Input</label>
+            <input id="input_text2" type="number" min="0" max="10" step="1" value="5"  placeholder="Enter a Number">
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Select menus</legend>
+          <p>
+            <label for="select">Select</label>
+            <select id="select">
+              <optgroup label="Group 1">
+                <option>Option 1.1</option>
+              </optgroup>
+              <optgroup label="Group 2">
+                <option>Option 2.1</option>
+                <option>Option 2.2</option>
+              </optgroup>
+              <optgroup label="Group 3" disabled>
+                <option>Option 3.1</option>
+                <option>Option 3.2</option>
+                <option>Option 3.3</option>
+              </optgroup>
+            </select>
+          </p>
+          <p>
+            <label for="browsers">Datalist</label>
+            <input list="browsers" placeholder="Write here..." name="myBrowser" /></label><br>
+              <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Internet Explorer">
+                <option value="Opera">
+                <option value="Safari">
+                <option value="Microsoft Edge">
+              </datalist>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Checkboxes</legend>
+          <ul class="list list--bare">
+            <li><label for="checkbox1"><input id="checkbox1" name="checkbox" type="checkbox" checked="checked"> Choice A</label></li>
+            <li><label for="checkbox2"><input id="checkbox2" name="checkbox" type="checkbox"> Choice B</label></li>
+            <li><label for="checkbox3"><input id="checkbox3" name="checkbox" type="checkbox"> Choice C</label></li>
+          </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>Radio buttons</legend>
+          <ul class="list list--bare">
+            <li><label for="radio1"><input id="radio1" name="radio" type="radio" class="radio" checked="checked"> Option 1</label></li>
+            <li><label for="radio2"><input id="radio2" name="radio" type="radio" class="radio"> Option 2</label></li>
+            <li><label for="radio3"><input id="radio3" name="radio" type="radio" class="radio"> Option 3</label></li>
+          </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>Textareas</legend>
+          <p>
+            <textarea name="textarea" rows="5" cols="30">Write something here</textarea>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>HTML5 inputs</legend>
+          <p>
+            <label for="ic">Color input</label>
+            <input type="color" id="ic" value="#000000">
+          </p>
+          <p>
+            <label for="ir">Range input</label>
+            <input type="range" id="ir" min="1" max="10" value="7">
+          </p>
+          <p>
+            <label for="idd">Date input</label>
+            <input type="date" id="idd" value="1970-01-01">
+          </p>
+          <p>
+            <label for="idm">Month input</label>
+            <input type="month" id="idm" value="1970-01">
+          </p>
+          <p>
+            <label for="idw">Week input</label>
+            <input type="week" id="idw" value="1970-W01">
+          </p>
+          <p>
+            <label for="idt">Datetime input</label>
+            <input type="datetime" id="idt" value="1970-01-01T00:00:00Z">
+          </p>
+          <p>
+            <label for="idtl">Datetime-local input</label>
+            <input type="datetime-local" id="idtl" value="1970-01-01T00:00">
+          </p>
+          <p>
+            <label for="iti">Time input</label>
+            <input type="time" id="iti" value="23:15">
+          </p>
+          <!-- <p>
+            <label for="ifi">File input</label>
+            <input type="file" accept=".pdf" id="ifi">
+          </p> -->
+        </fieldset>
+
+        <fieldset>
+          <legend>Measurement</legend>
+          <p>
+            <label>Meter</label>
+            <meter min="200" max="500" high="400" value="450">450 degrees  meter</meter>
+          </p>
+          <p>
+            <label>Progress</label>
+            <progress value="70" max="100">70 %</progress>
+          </p>
+          <p>
+            <output name="result">Output</output>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Action buttons</legend>
+          <p>
+            <input type="submit" value="submit">
+            <input type="button" value="button">
+            <input type="reset" value="reset">
+						<input type="submit" value="disabled" disabled>
+          </p>
+        </fieldset>
+
+      </form>
+
+    </section>
+
+
+
+    <section id="interactive">
+
+      <h1 class="styleguide-title">Interactive</h1>
+
+      <h2 class="styleguide-subtitle">Details</h2>
+      <details>
+        <summary>Some details</summary>
+        <p>More info about the details.</p>
+      </details>
+
+      <h2 class="styleguide-subtitle">Dialog</h2>
+      <dialog open>
+        <p>This is a open dialog</p>
+      </dialog>
+
+    </section>
+
+
+  </main>
+
+  <footer>
+    <a class="styleguide-top" href="#" title="top">↑</a>
+  </footer>
+</body>
+</html>

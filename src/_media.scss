@@ -1,0 +1,19 @@
+/* MEDIA CONTENT */
+
+img,
+video,
+audio {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+
+
+
+
+// <area>	The HTML <area> element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a <map> element.
+// <audio>	The HTML <audio> element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the <source> element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.
+// <img>	The HTML <img> element embeds an image into the document.
+// <map>	The HTML <map> element is used with <area> elements to define an image map (a clickable link area).
+// <track>	The HTML <track> element is used as a child of the media elements <audio> and <video>. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) — Web Video Text Tracks or Timed Text Markup Language (TTML).
+// <video>
