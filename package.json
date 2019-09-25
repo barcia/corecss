@@ -1,32 +1,32 @@
 {
- "name": "standarize",
- "version": "4.0.0",
- "description": "Another CSS stylesheet for unify styles.",
- "author": "Iván Barcia <ivan@barcia.dev> (https://barcia.dev)",
- "license": "MIT",
- "homepage": "http://barcia.github.io/standarize",
- "repository": "github:barcia/standarize",
- "bugs": "https://github.com/barcia/standarize/issues",
- "main": "standarize.css",
- "style": "standarize.css",
- "files": [
-  "LICENSE.md",
-  "standarize.css"
- ],
- "scripts": {
-	 "build": "node-sass src/standarize.scss dist/standarize.css",
-	 "start": "node-sass -w src/standarize.scss dist/standarize.css"
- },
- "keywords": [
-  "css",
-  "base",
-  "standarize",
-  "normalize",
-  "sanitize",
-  "reset",
-  "css reset"
- ],
- "devDependencies": {
-  "node-sass": "^4.12.0"
- }
+	"name": "standarize",
+	"version": "4.0.0",
+	"description": "A solid base for CSS.",
+	"author": "Iván Barcia <ivan@barcia.dev> (https://barcia.dev)",
+	"license": "MIT",
+	"homepage": "http://barcia.github.io/standarize",
+	"repository": "github:barcia/standarize",
+	"bugs": "https://github.com/barcia/standarize/issues",
+	"main": "dist/standarize.min.css",
+	"files": [
+		"LICENSE.md",
+		"dist/standarize.css",
+		"dist/standarize.min.css"
+	],
+	"scripts": {
+		"build": "node-sass src/standarize.scss dist/standarize.css && node-sass --output-style compressed src/standarize.scss dist/standarize.min.css",
+		"start": "node-sass -w src/standarize.scss dist/standarize.css"
+	},
+	"keywords": [
+		"css",
+		"base",
+		"standarize",
+		"normalize",
+		"sanitize",
+		"reset",
+		"css reset"
+	],
+	"devDependencies": {
+		"node-sass": "^4.12.0"
+	}
 }
