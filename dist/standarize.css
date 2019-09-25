@@ -51,12 +51,13 @@ hr {
 
 /* TEXT SEMANTICS */
 abbr[title] {
+  text-decoration: underline;
   text-decoration: underline dotted; }
 
 code,
 kbd,
 samp {
-  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace;
   font-size: 0.9em; }
 
 b,
@@ -110,7 +111,8 @@ optgroup,
 select,
 textarea {
   font-family: inherit;
-  font-size: 1em; }
+  font-size: 1em;
+  margin: 0; }
 
 button,
 [type='button'],
@@ -175,7 +177,8 @@ select {
 input[type='range'] {
   cursor: col-resize; }
 
-[disabled] {
+[disabled],
+[aria-disabled="true"] {
   cursor: not-allowed !important; }
 
 [aria-busy="true"] {

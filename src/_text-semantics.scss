@@ -1,13 +1,14 @@
 /* TEXT SEMANTICS */
 
 abbr[title] {
+	text-decoration: underline;
 	text-decoration: underline dotted;
 }
 
 code,
 kbd,
 samp {
-	font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace;
 	font-size: 0.9em;
 }
 

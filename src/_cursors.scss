@@ -39,7 +39,8 @@ input[type='range'] {
 	cursor: col-resize;
 }
 
-[disabled] {
+[disabled],
+[aria-disabled="true"] {
 	cursor: not-allowed !important;
 }
 
