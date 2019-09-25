@@ -1,23 +1,42 @@
 # Standarize
-A CSS base to unify styles
-![Version](https://img.shields.io/github/package-json/v/barcia/standarize.svg)
-![License](https://img.shields.io/github/license/barcia/standarize.svg)
+A solid base for CSS
 
+[![Version](https://img.shields.io/github/package-json/v/barcia/standarize.svg)][latest-release]
+[![License](https://img.shields.io/github/license/barcia/standarize.svg)][license]
+
+⬇️[Download last release.][latest-release]
+
+Standarize aims to be a **light and solid foundation on which to build your CSS**. There are other similar projects that standarize is inspired by. The objective of standarize is to create a **simple base that unifies the most basic CSS values of the main browsers**.
+
+It's built trying to be deeply respectful with the **web standards** and with the **decisions of the different browsers**. Sometimes, default is good. I try to avoid overwriting a selector several times unnecessarily.
+
+There is bit opinionated code, but some. For example: _box-sizing_, _font-families_, cursors, etc.
+
+I don't worry too much about **old and obsolete browsers**.
+
+All contributions and opinions are welcome. [I'm in][new-issue].
+
+
+
+- [Web][web]
+- [Repository][repository]
+- [Changelog][releases]
+- [Issues][issues]
 
 ## Getting Started
 
 ### 1. Get standarize.css
 
-  * [Download the last release](https://github.com/barcia/standarize/releases/latest)
+  * [Download the last release][latest-release]
 
   * Install it with **npm**:
     ```shell
-    npm install standarize --save-dev
+    npm install standarize --save
     ```
 
   * Add it with a CDN
     ```html
-    <link rel="stylesheet" href="https://unpkg.com/standarize">
+    <link rel="stylesheet" href="https://unpkg.com/standarize@4.0.0">
     ```
 ### 2. Import/paste *standarize.css* at the **first** of your code.
 
@@ -37,4 +56,19 @@ Developed by Iván Barcia and strongly inspired in other projects
 Project tested on [BrowserStack](https://www.browserstack.com/)
 
 ## License
-This project is under [MIT License](https://github.com/barcia/bramework/blob/master/LICENSE)
+This project is under [MIT License](LICENSE)
+
+
+
+[web]: http://barcia.github.io/standarize
+[repository]: https://github.com/barcia/standarize/
+[issues]: https://github.com/barcia/standarize/issues
+[new-issue]: https://github.com/barcia/standarize/issues/new
+[releases]: https://github.com/barcia/standarize/releases
+[latest-release]: https://github.com/barcia/standarize/releases/latest
+[license]: LICENSE
+[npm]: https://www.npmjs.com/package/standarize
+
+[webkit]: https://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css
+[blink]: https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css
+[gecko]: https://dxr.mozilla.org/mozilla-central/source/layout/style/res/html.css
