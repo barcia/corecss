@@ -1,5 +1,9 @@
-@import 'head';
-
+/**!
+ * standarize.css - https://github.com/barcia/standarize
+ * v4.0.0
+ * Iván Barcia (@bartzia) - https://barcia.dev
+ * MIT License
+ */
 @import 'base';
 @import 'content';
 @import 'text-content';
@@ -9,7 +13,6 @@
 @import 'table';
 @import 'forms';
 @import 'interactive';
-
 @import 'cursors';
 @import 'a11y';
 @import 'other';

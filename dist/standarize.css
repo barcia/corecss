@@ -29,8 +29,10 @@ h1, h2, h3, h4, h5, h6 {
 address {
   font-style: inherit; }
 
-/*TEXT CONTENT */
-p, blockquote, pre,
+/* TEXT CONTENT */
+p,
+blockquote,
+pre,
 dl, ol, ul,
 figure {
   margin-top: 0; }
@@ -44,19 +46,18 @@ pre {
   overflow-x: auto; }
 
 hr {
-  overflow: visible;
-  clear: both; }
+  clear: both;
+  overflow: visible; }
 
+/* TEXT SEMANTICS */
 abbr[title] {
   text-decoration: underline dotted; }
 
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-  /* 1 */
-  font-size: 0.9em;
-  /* 2 */ }
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-size: 0.9em; }
 
 b,
 strong {
@@ -85,6 +86,7 @@ audio {
   max-width: 100%;
   vertical-align: middle; }
 
+/* EMBEDDED */
 iframe,
 canvas,
 embed,
@@ -95,6 +97,7 @@ object {
 iframe {
   border: 0; }
 
+/* TABLE */
 table {
   max-width: 100%;
   border-collapse: collapse;
