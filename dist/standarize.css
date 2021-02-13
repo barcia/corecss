@@ -1,4 +1,4 @@
-/**!
+/** !
  * standarize.css - https://github.com/barcia/standarize
  * v4.0.0
  * Iván Barcia (@bartzia) - https://barcia.dev
@@ -6,116 +6,123 @@
  */
 /* BASE */
 :root {
-	font-family:
-		system-ui,
-		-apple-system,
-		BlinkMacSystemFont,
-		'Segoe UI',
-		Roboto,
-		'Helvetica Neue',
-		Ubuntu,
-		Cantarell,
-		'Noto Sans',
-		sans-serif,
-		'Apple Color Emoji',
-		'Segoe UI Emoji',
-		'Segoe UI Symbol',
-		'Noto Color Emoji';
-	cursor: default;
-	box-sizing: border-box;
-	-webkit-text-size-adjust: 100%;
-	-webkit-tap-highlight-color: hsla(0, 0%, 0%, 0);
-	-webkit-font-smoothing: antialiased;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Ubuntu,
+    Cantarell,
+    'Noto Sans',
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol',
+    'Noto Color Emoji';
+  cursor: default;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: hsla(0, 0%, 0%, 0);
+  -webkit-font-smoothing: antialiased;
 }
 *,
 ::before,
 ::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 body {
-	margin: 0;
+  margin: 0;
 }
 /* CONTENT SECTIONING */
-h1, h2, h3, h4, h5, h6 {
-	margin-top: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
 }
 address {
-	font-style: inherit;
+  font-style: inherit;
 }
 /* TEXT CONTENT */
 p,
 blockquote,
 pre,
-dl, ol, ul,
+dl,
+ol,
+ul,
 figure {
-	margin-top: 0;
+  margin-top: 0;
 }
 figure {
-	max-width: 100%;
-	margin-right: 0;
-	margin-left: 0;
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
 }
 pre {
-	overflow-x: auto;
+  overflow-x: auto;
 }
 hr {
-	clear: both;
-	overflow: visible;
+  clear: both;
+  overflow: visible;
 }
 /* TEXT SEMANTICS */
 abbr[title] {
-	text-decoration: underline;
-	text-decoration: underline dotted;
+  text-decoration: underline;
+  text-decoration: underline dotted;
 }
 code,
 kbd,
 samp {
   font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace;
-	font-size: 0.9em;
+  font-size: 0.9em;
 }
 b,
 strong {
-	font-weight: bolder;
+  font-weight: bolder;
 }
 small {
-	font-size: 0.85em;
+  font-size: 0.85em;
 }
 sub,
 sup {
-	position: relative;
-	font-size: 75%;
-	line-height: 0;
-	vertical-align: baseline;
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
 }
 sub {
-	bottom: -0.25em;
+  bottom: -0.25em;
 }
 sup {
-	top: -0.5em;
+  top: -0.5em;
 }
 /* MEDIA CONTENT */
 img,
 video,
 audio {
-	max-width: 100%;
-	vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
 }
 /* EMBEDDED */
 iframe,
 canvas,
 embed,
 object {
-	max-width: 100%;
-	vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
 }
 iframe {
-	border: 0;
+  border: 0;
 }
 /* TABLE */
 table {
-	max-width: 100%;
-	border-collapse: collapse;
-	border-spacing: 0;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 /* FORMS */
 button,
@@ -123,55 +130,55 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: inherit;
-	font-size: 1em;
-	margin: 0;
+  font-family: inherit;
+  font-size: 1em;
+  margin: 0;
 }
 button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-	-webkit-appearance: button;
+  -webkit-appearance: button;
 }
 [type='number']::-webkit-inner-spin-button,
 [type='number']::-webkit-outer-spin-button {
-	height: auto;
+  height: auto;
 }
 [type='search'] {
-	outline-offset: -2px;
-	-webkit-appearance: textfield;
+  outline-offset: -2px;
+  -webkit-appearance: textfield;
 }
 [type='search']::-webkit-search-decoration {
-	-webkit-appearance: none;
+  -webkit-appearance: none;
 }
 ::-webkit-file-upload-button {
-	font: inherit;
-	-webkit-appearance: button;
+  font: inherit;
+  -webkit-appearance: button;
 }
 progress {
-	max-width: 100%;
-	vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
 }
 /* INTERACTIVE */
 details {
-	display: block;
+  display: block;
 }
 /* CURSORS */
 *,
 ::before,
 ::after {
-	cursor: inherit;
+  cursor: inherit;
 }
 pre,
 code,
 kbd,
 samp,
 var {
-	cursor: text;
+  cursor: text;
 }
 abbr[title],
 dfn[title] {
-	cursor: help;
+  cursor: help;
 }
 textarea,
 input[type='email'],
@@ -182,20 +189,20 @@ input[type='text'],
 input[type='url'],
 input[type='number'],
 input[type='datetime'] {
-	cursor: text;
+  cursor: text;
 }
 select {
-	cursor: context-menu;
+  cursor: context-menu;
 }
 input[type='range'] {
-	cursor: col-resize;
+  cursor: col-resize;
 }
 [disabled],
 [aria-disabled="true"] {
-	cursor: not-allowed !important;
+  cursor: not-allowed !important;
 }
 [aria-busy="true"] {
-	cursor: progress;
+  cursor: progress;
 }
 a,
 button,
@@ -205,19 +212,19 @@ input[type='button'],
 input[type='reset'],
 [role='button'],
 [role='link'] {
-	cursor: pointer;
+  cursor: pointer;
 }
 /* ACCESSIBILITY */
 /**
  * https://github.com/barcia/standarize/issues/7
  */
 @media (prefers-reduced-motion: reduce) {
-	* {
-		animation: none;
-		transition: none;
-	}
+  * {
+    animation: none;
+    transition: none;
+  }
 }
 /* OTHER */
 [hidden] {
-	display: none;
+  display: none;
 }
