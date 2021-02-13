@@ -3,22 +3,24 @@
 p,
 blockquote,
 pre,
-dl, ol, ul,
+dl,
+ol,
+ul,
 figure {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 figure {
-	max-width: 100%;
-	margin-right: 0;
-	margin-left: 0;
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 pre {
-	overflow-x: auto;
+  overflow-x: auto;
 }
 
 hr {
-	clear: both;
-	overflow: visible;
+  clear: both;
+  overflow: visible;
 }

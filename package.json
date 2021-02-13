@@ -14,8 +14,10 @@
 		"dist/standarize.min.css"
 	],
 	"scripts": {
-		"build": "node-sass src/standarize.scss dist/standarize.css && node-sass --output-style compressed src/standarize.scss dist/standarize.min.css",
-		"start": "node-sass -w src/standarize.scss dist/standarize.css"
+		"test": "stylelint --fix src/*.css",
+		"build": "node build.js",
+		"oldbuild": "node-sass src/standarize.scss dist/standarize.css && node-sass --output-style compressed src/standarize.scss dist/standarize.min.css",
+		"oldstart": "node-sass -w src/standarize.scss dist/standarize.css"
 	},
 	"keywords": [
 		"css",
@@ -28,7 +30,8 @@
 	],
 	"devDependencies": {
 		"postcss": "^8.2.6",
-		"postcss-cli": "^8.3.1",
-		"postcss-import": "^14.0.0"
+		"postcss-import": "^14.0.0",
+		"stylelint": "^13.10.0",
+		"stylelint-config-standard": "^20.0.0"
 	}
 }

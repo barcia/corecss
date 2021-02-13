@@ -5,38 +5,38 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: inherit;
-	font-size: 1em;
-	margin: 0;
+  font-family: inherit;
+  font-size: 1em;
+  margin: 0;
 }
 
 button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-	-webkit-appearance: button;
+  -webkit-appearance: button;
 }
 
 [type='number']::-webkit-inner-spin-button,
 [type='number']::-webkit-outer-spin-button {
-	height: auto;
+  height: auto;
 }
 
 [type='search'] {
-	outline-offset: -2px;
-	-webkit-appearance: textfield;
+  outline-offset: -2px;
+  -webkit-appearance: textfield;
 }
 
 [type='search']::-webkit-search-decoration {
-	-webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 ::-webkit-file-upload-button {
-	font: inherit;
-	-webkit-appearance: button;
+  font: inherit;
+  -webkit-appearance: button;
 }
 
 progress {
-	max-width: 100%;
-	vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
 }

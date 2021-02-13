@@ -4,10 +4,10 @@ iframe,
 canvas,
 embed,
 object {
-	max-width: 100%;
-	vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 iframe {
-	border: 0;
+  border: 0;
 }
