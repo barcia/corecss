@@ -2,14 +2,26 @@ const fs = require("fs")
 const postcss = require("postcss")
 const atImport = require("postcss-import")
 const cssNano = require("cssnano")
+const header = require('postcss-header');
 
 const entry = 'src/main.css';
 const dist = 'dist/standarize';
 
+const stylesheetBanner = header({
+  header: `/** !
+ * ${process.env.npm_package_name} - ${process.env.npm_package_description}
+ * ${process.env.npm_package_repository_url}
+ * v${process.env.npm_package_version}
+ * ${process.env.npm_package_author_name} - ${process.env.npm_package_author_url}
+ * ${process.env.npm_package_license} License
+ */`,
+});
+
+
 fs.readFile(entry, (err, css) => {
 
   // Default
-  postcss([atImport])
+  postcss([atImport, stylesheetBanner])
     .process(css, { from: entry, to: `${dist}.css` })
     .then(result => {
       fs.writeFile(`${dist}.css`, result.css, () => true)
