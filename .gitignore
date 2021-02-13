@@ -1,2 +1,55 @@
-node_modules
+# Dependency directories
+node_modules/
 package-lock.json
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+bower_components
+web_modules/
+
+# Next
+.next
+out
+
+# Cache
+.cache
+.sass-cache/
+.eslintcache
+.npm
+.env
+.stylelintcache
+.grunt
+*.tsbuildinfo
+.parcel-cache
+
+# OS
+.directory
+.Trash-*
+.nfs*
+.DS_Store
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editors
+*.sublime-project
+*.sublime-workspace
+.vscode/*
+
+# Thumbnails
+._*
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.rej
+*.vi
+*.zip
+*~
