@@ -55,6 +55,7 @@ summary,
 input[type='submit'],
 input[type='button'],
 input[type='reset'],
+label[for],
 [role='button'],
 [role='link'] {
   cursor: pointer;
