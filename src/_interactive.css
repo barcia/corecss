@@ -3,3 +3,9 @@
 details {
   display: block;
 }
+
+details *,
+details ::before,
+details ::after {
+  box-sizing: border-box;
+}
