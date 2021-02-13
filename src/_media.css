@@ -1,0 +1,8 @@
+/* MEDIA CONTENT */
+
+img,
+video,
+audio {
+  max-width: 100%;
+  vertical-align: middle;
+}

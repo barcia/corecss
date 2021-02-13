@@ -1,21 +1,22 @@
 {
 	"name": "standarize",
-	"version": "4.0.0",
-	"description": "A solid base for CSS.",
-	"author": "Iván Barcia <ivan@barcia.dev> (https://barcia.dev)",
+	"version": "4.1.0",
+	"description": "A simple base for CSS",
+	"author": "Iván Barcia (https://barcia.dev)",
 	"license": "MIT",
 	"homepage": "http://barcia.github.io/standarize",
 	"repository": "github:barcia/standarize",
 	"bugs": "https://github.com/barcia/standarize/issues",
-	"main": "dist/standarize.min.css",
+	"main": "dist/standarize.css",
+	"browser": "dist/standarize.min.css",
 	"files": [
 		"LICENSE.md",
 		"dist/standarize.css",
 		"dist/standarize.min.css"
 	],
 	"scripts": {
-		"build": "node-sass src/standarize.scss dist/standarize.css && node-sass --output-style compressed src/standarize.scss dist/standarize.min.css",
-		"start": "node-sass -w src/standarize.scss dist/standarize.css"
+		"test": "stylelint src/*.css",
+		"build": "node build.js"
 	},
 	"keywords": [
 		"css",
@@ -27,6 +28,11 @@
 		"css reset"
 	],
 	"devDependencies": {
-		"node-sass": "^4.12.0"
+		"cssnano": "^4.1.10",
+		"postcss": "^8.2.6",
+		"postcss-header": "^3.0.1",
+		"postcss-import": "^14.0.0",
+		"stylelint": "^13.10.0",
+		"stylelint-config-standard": "^20.0.0"
 	}
 }

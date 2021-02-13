@@ -3,7 +3,7 @@
 *,
 ::before,
 ::after {
-	cursor: inherit;
+  cursor: inherit;
 }
 
 pre,
@@ -11,12 +11,12 @@ code,
 kbd,
 samp,
 var {
-	cursor: text;
+  cursor: text;
 }
 
 abbr[title],
 dfn[title] {
-	cursor: help;
+  cursor: help;
 }
 
 textarea,
@@ -28,24 +28,25 @@ input[type='text'],
 input[type='url'],
 input[type='number'],
 input[type='datetime'] {
-	cursor: text;
+  cursor: text;
 }
 
-select {
-	cursor: context-menu;
+select,
+[role="listbox"] {
+  cursor: context-menu;
 }
 
 input[type='range'] {
-	cursor: col-resize;
+  cursor: col-resize;
 }
 
 [disabled],
 [aria-disabled="true"] {
-	cursor: not-allowed !important;
+  cursor: not-allowed !important;
 }
 
 [aria-busy="true"] {
-	cursor: progress;
+  cursor: progress;
 }
 
 a,
@@ -54,7 +55,8 @@ summary,
 input[type='submit'],
 input[type='button'],
 input[type='reset'],
+label[for],
 [role='button'],
 [role='link'] {
-	cursor: pointer;
+  cursor: pointer;
 }

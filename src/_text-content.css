@@ -1,0 +1,26 @@
+/* TEXT CONTENT */
+
+p,
+blockquote,
+pre,
+dl,
+ol,
+ul,
+figure {
+  margin-top: 0;
+}
+
+figure {
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+hr {
+  clear: both;
+  overflow: visible;
+}
