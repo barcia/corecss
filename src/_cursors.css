@@ -31,7 +31,8 @@ input[type='datetime'] {
   cursor: text;
 }
 
-select {
+select,
+[role="listbox"] {
   cursor: context-menu;
 }
 
