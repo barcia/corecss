@@ -1,0 +1,18 @@
+/**!
+ * standarize.css - https://github.com/barcia/standarize
+ * v4.0.0
+ * Iván Barcia (@bartzia) - https://barcia.dev
+ * MIT License
+ */
+@import '_base';
+@import '_content';
+@import '_text-content';
+@import '_text-semantics';
+@import '_media';
+@import '_embedded';
+@import '_table';
+@import '_forms';
+@import '_interactive';
+@import '_cursors';
+@import '_a11y';
+@import '_other';
