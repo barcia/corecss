@@ -8,7 +8,7 @@ abbr[title] {
 code,
 kbd,
 samp {
-  font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace;
   font-size: 0.9em;
 }
 
