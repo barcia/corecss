@@ -1,8 +1,9 @@
 const fs = require("fs")
 const postcss = require("postcss")
+const postcssPresetEnv = require('postcss-preset-env')
 const atImport = require("postcss-import")
 const cssNano = require("cssnano")
-const header = require('postcss-header');
+const header = require('postcss-header')
 
 const entry = 'src/main.css';
 const dist = 'dist/standarize';
@@ -17,11 +18,14 @@ const stylesheetBanner = header({
  */`,
 });
 
+const postcssPresetEnvOptions = {
+  stage: 2
+}
 
 fs.readFile(entry, (err, css) => {
 
   // Default
-  postcss([atImport, stylesheetBanner])
+  postcss([atImport, postcssPresetEnv(postcssPresetEnvOptions), stylesheetBanner])
     .process(css, { from: entry, to: `${dist}.css` })
     .then(result => {
       fs.writeFile(`${dist}.css`, result.css, () => true)
@@ -29,7 +33,7 @@ fs.readFile(entry, (err, css) => {
     })
 
   // Minified
-  postcss([atImport, cssNano])
+  postcss([atImport, postcssPresetEnv(postcssPresetEnvOptions), cssNano])
     .process(css, { from: entry, to: `${dist}.min.css` })
     .then(result => {
       fs.writeFile(`${dist}.min.css`, result.css, () => true)

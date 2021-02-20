@@ -9,26 +9,11 @@
 /* BASE */
 
 :root {
-  font-family:
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Helvetica Neue',
-    'Noto Sans',
-    sans-serif,
-    'Apple Color Emoji',
-    'Segoe UI Emoji',
-    'Segoe UI Symbol',
-    'Noto Color Emoji';
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
   cursor: default;
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: hsla(0, 0%, 0%, 0);
+  -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -88,7 +73,8 @@ hr {
 
 abbr[title] {
   text-decoration: underline;
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 code,
@@ -282,8 +268,10 @@ label[for],
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
@@ -291,6 +279,6 @@ label[for],
 
 /* OTHER */
 
-[hidden] {
+[hidden][hidden] {
   display: none;
 }
