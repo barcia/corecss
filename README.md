@@ -36,7 +36,7 @@ Choose how you want to use standarize:
 
 ### CDN
   ```html
-  <link rel="stylesheet" href="https://unpkg.com/standarize@4.1.0">
+  <link rel="stylesheet" href="https://unpkg.com/standarize@5.0.0">
   ```
 
 
