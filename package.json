@@ -18,7 +18,7 @@
 		"test": "stylelint src/*.css",
         "prebuild": "npm run test",
 		"build": "node build.js",
-        "prepublish": "npm run build"
+        "prepare": "npm run build"
 	},
 	"keywords": [
 		"css",
