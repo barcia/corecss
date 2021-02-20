@@ -9,13 +9,12 @@ Standarize aims to be a **light, simple and solid foundation on which to build y
 
 It's built trying to be deeply respectful with the **web standards** and with the **decisions of the different browsers**. Sometimes, default is good. I try to avoid overwriting a selector several times unnecessarily.
 
-There is bit opinionated code, but some. For example: _box-sizing_, _font-families_, cursors, etc.
+There is some opinionated code, but not much. For example: _box-sizing_, _font-families_, cursors, etc.
 
 I don't worry too much about **old and obsolete browsers**.
 
-All contributions and opinions are welcome. [I'm in][new-issue].
+All contributions and opinions are welcome.
 
-- [Web][web]
 - [Repository][repository]
 - [Changelog][releases]
 - [Issues][issues]
@@ -30,7 +29,7 @@ Choose how you want to use standarize:
 
 ### NPM
   ```shell
-  npm install standarize --save
+  npm install standarize --save-dev
   ```
 
   See [npmjs.com/package/standarize][npm]
@@ -44,6 +43,7 @@ Choose how you want to use standarize:
 
 ## Credits
 Developed by Iván Barcia. Inspired in other projects.
+
 [Web][ivan-web] · [Twitter][ivan-twitter] · [GitHub][ivan-github]
 
 Project tested on [BrowserStack](https://www.browserstack.com/)
@@ -69,10 +69,8 @@ This project is under [MIT License][license]
 
 
 
-[web]: http://barcia.github.io/standarize
 [repository]: https://github.com/barcia/standarize/
 [issues]: https://github.com/barcia/standarize/issues
-[new-issue]: https://github.com/barcia/standarize/issues/new
 [releases]: https://github.com/barcia/standarize/releases
 [latest-release]: https://github.com/barcia/standarize/releases/latest
 [license]: LICENSE
