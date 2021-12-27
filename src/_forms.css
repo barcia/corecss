@@ -38,5 +38,5 @@ button,
 
 progress {
   max-width: 100%;
-  vertical-align: middle;
+  vertical-align: baseline;
 }
