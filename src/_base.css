@@ -4,6 +4,7 @@
   font-family: system-ui;
   cursor: default;
   box-sizing: border-box;
+  overflow-wrap: break-word;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
