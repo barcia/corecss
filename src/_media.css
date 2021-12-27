@@ -1,8 +1,10 @@
 /* MEDIA CONTENT */
 
-img,
-video,
-audio {
+:where(img, video, audio, svg) {
   max-width: 100%;
   vertical-align: middle;
+}
+
+:where(iframe) {
+  border-style: none;
 }
