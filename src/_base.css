@@ -5,6 +5,7 @@
   cursor: default;
   box-sizing: border-box;
   overflow-wrap: break-word;
+  text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
