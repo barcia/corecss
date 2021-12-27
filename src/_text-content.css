@@ -17,7 +17,7 @@ figure {
 }
 
 pre {
-  overflow-x: auto;
+  overflow: auto;
 }
 
 hr {
