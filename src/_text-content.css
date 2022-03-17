@@ -1,26 +1,16 @@
 /* TEXT CONTENT */
 
-p,
-blockquote,
-pre,
-dl,
-ol,
-ul,
-figure {
-  margin-top: 0;
+:where(figure) {
+	max-width: 100%;
+	margin-right: 0;
+	margin-left: 0;
 }
 
-figure {
-  max-width: 100%;
-  margin-right: 0;
-  margin-left: 0;
+:where(pre) {
+	overflow: auto;
 }
 
-pre {
-  overflow: auto;
-}
-
-hr {
-  clear: both;
-  overflow: visible;
+:where(hr) {
+	clear: both;
+	overflow: visible;
 }

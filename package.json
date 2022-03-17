@@ -1,7 +1,7 @@
 {
 	"name": "standarize",
-	"version": "5.0.0",
-	"description": "A simple base for CSS",
+	"version": "6.0.0",
+	"description": "A simple CSS base",
 	"author": "Iván Barcia (https://barcia.dev)",
 	"license": "MIT",
 	"homepage": "http://barcia.github.io/standarize",
@@ -14,11 +14,12 @@
 		"dist/standarize.css",
 		"dist/standarize.min.css"
 	],
+	"type": "module",
 	"scripts": {
-		"test": "stylelint src/*.css",
-        "prebuild": "npm run test",
-		"build": "node build.js",
-        "prepare": "npm run build"
+		"lint": "stylelint src/*.css",
+		"prebuild": "npm run lint",
+		"build": "node .scripts/build.js",
+		"prepublishOnly": "npm run build"
 	},
 	"keywords": [
 		"css",
@@ -30,12 +31,10 @@
 		"css reset"
 	],
 	"devDependencies": {
-		"cssnano": "^4.1.10",
-		"postcss": "^8.2.6",
-		"postcss-header": "^3.0.1",
-		"postcss-import": "^14.0.0",
-		"postcss-preset-env": "^6.7.0",
-		"stylelint": "^13.11.0",
-		"stylelint-config-standard": "^20.0.0"
+		"cssnano": "^5.1.4",
+		"postcss": "^8.4.12",
+		"postcss-import": "^14.0.2",
+		"stylelint": "^14.6.0",
+		"stylelint-config-standard": "^25.0.0"
 	}
 }

@@ -1,5 +1,5 @@
 # Standarize
-A simple base for CSS
+A simple CSS base
 
 [![Version](https://img.shields.io/github/package-json/v/barcia/standarize.svg)][latest-release]
 [![File size in bytes](https://img.shields.io/github/size/barcia/standarize/dist/standarize.min.css)][latest-release]
@@ -36,13 +36,13 @@ Choose how you want to use standarize:
 
 ### CDN
   ```html
-  <link rel="stylesheet" href="https://unpkg.com/standarize@5.0.0">
+  <link rel="stylesheet" href="https://unpkg.com/standarize@{VERSION}">
   ```
 
 
 
 ## Credits
-Developed by Iván Barcia. Inspired in other projects.
+Developed by Iván Barcia. Based in other projects.
 
 [Web][ivan-web] · [Twitter][ivan-twitter] · [GitHub][ivan-github]
 

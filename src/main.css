@@ -1,12 +1,20 @@
-@import '_base.css';
-@import '_content.css';
-@import '_text-content.css';
-@import '_text-semantics.css';
-@import '_media.css';
-@import '_embedded.css';
-@import '_table.css';
-@import '_forms.css';
-@import '_interactive.css';
-@import '_cursors.css';
-@import '_a11y.css';
-@import '_other.css';
+/** !
+ * Standarize - A simple base for CSS
+ * https://github.com/barcia/standarize
+ * v6.0.0
+ * Iván Barcia - https://barcia.dev
+ * MIT License
+ */
+
+@import "./_base.css";
+@import "./_content.css";
+@import "./_text-content.css";
+@import "./_text-semantics.css";
+@import "./_media.css";
+@import "./_embedded.css";
+@import "./_tables.css";
+@import "./_forms.css";
+@import "./_interactive.css";
+@import "./_cursors.css";
+@import "./_a11y.css";
+@import "./_other.css";

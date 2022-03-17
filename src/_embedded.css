@@ -1,13 +1,10 @@
 /* EMBEDDED */
 
-iframe,
-canvas,
-embed,
-object {
-  max-width: 100%;
-  vertical-align: middle;
+:where(iframe, canvas, embed, object) {
+	max-width: 100%;
+	vertical-align: middle;
 }
 
-iframe {
-  border: 0;
+:where(iframe) {
+	border: 0;
 }

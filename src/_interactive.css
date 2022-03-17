@@ -1,11 +1,9 @@
 /* INTERACTIVE */
 
-details {
-  display: block;
+:where(details) {
+	display: block;
 }
 
-details *,
-details ::before,
-details ::after {
-  box-sizing: border-box;
+:where(details *, details::before, details::after) {
+	box-sizing: border-box;
 }

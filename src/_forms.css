@@ -1,42 +1,34 @@
 /* FORMS */
 
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 1em;
-  margin: 0;
+:where(button, input, optgroup, select, textarea) {
+	font-family: inherit;
+	font-size: 1em;
+	margin: 0;
 }
 
-button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
-  -webkit-appearance: button;
+:where(button, [type="button"], [type="reset"], [type="submit"]) {
+	appearance: button;
 }
 
-[type='number']::-webkit-inner-spin-button,
-[type='number']::-webkit-outer-spin-button {
-  height: auto;
+:where(progress) {
+	max-width: 100%;
+	vertical-align: baseline;
 }
 
-[type='search'] {
-  outline-offset: -2px;
-  -webkit-appearance: textfield;
+:where(::-webkit-file-upload-button) {
+	font: inherit;
+	appearance: button;
 }
 
-[type='search']::-webkit-search-decoration {
-  -webkit-appearance: none;
+:where([type="search"]) {
+	outline-offset: -2px;
+	appearance: textfield;
 }
 
-::-webkit-file-upload-button {
-  font: inherit;
-  -webkit-appearance: button;
+:where([type="search"]::-webkit-search-decoration) {
+	appearance: none;
 }
 
-progress {
-  max-width: 100%;
-  vertical-align: baseline;
+:where([type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button) {
+	height: auto;
 }
