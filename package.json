@@ -19,7 +19,9 @@
 		"lint": "stylelint src/*.css",
 		"prebuild": "npm run lint",
 		"build": "node .scripts/build.js",
-		"prepublishOnly": "npm run build"
+		"publish:github": "npm publish --registry=https://npm.pkg.github.com",
+		"prepublishOnly": "npm run build",
+		"postpublish": "npm run publish:github"
 	},
 	"keywords": [
 		"css",
