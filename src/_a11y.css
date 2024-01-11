@@ -1,8 +1,5 @@
 /* ACCESSIBILITY */
 
-/**
- * https://github.com/barcia/standarize/issues/7
- */
 @media (prefers-reduced-motion: reduce) {
 	*,
 	*::before,

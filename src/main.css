@@ -1,20 +1,20 @@
 /** !
- * Standarize - A simple base for CSS
- * https://github.com/barcia/standarize
- * v6.0.0
+ * CoreCSS - A simple base for CSS
+ * https://github.com/barcia/corecss
+ * v6.1.0
  * Iván Barcia - https://barcia.dev
  * MIT License
  */
 
-@import "./_base.css";
-@import "./_content.css";
-@import "./_text-content.css";
-@import "./_text-semantics.css";
-@import "./_media.css";
-@import "./_embedded.css";
-@import "./_tables.css";
-@import "./_forms.css";
-@import "./_interactive.css";
-@import "./_cursors.css";
-@import "./_a11y.css";
-@import "./_other.css";
+@import url("./_base.css");
+@import url("./_content.css");
+@import url("./_text-content.css");
+@import url("./_text-semantics.css");
+@import url("./_media.css");
+@import url("./_embedded.css");
+@import url("./_tables.css");
+@import url("./_forms.css");
+@import url("./_interactive.css");
+@import url("./_cursors.css");
+@import url("./_a11y.css");
+@import url("./_other.css");

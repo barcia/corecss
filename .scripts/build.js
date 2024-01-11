@@ -5,8 +5,8 @@ import cssnano from "cssnano";
 
 const sourceFile = "/src/main.css"
 const distPath = "/dist/"
-const distFileName = "standarize.css"
-const distFileNameMin = "standarize.min.css"
+const distFileName = "core.css"
+const distFileNameMin = "core.min.css"
 
 const atImportConfig = {}
 const cssnanoConfig = {

@@ -1,11 +1,11 @@
-# Standarize
+# CoreCSS
 A simple CSS base
 
-[![Version](https://img.shields.io/github/package-json/v/barcia/standarize.svg)][latest-release]
-[![File size in bytes](https://img.shields.io/github/size/barcia/standarize/dist/standarize.min.css)][latest-release]
-[![License](https://img.shields.io/github/license/barcia/standarize.svg)][license]
+[![Version](https://img.shields.io/github/package-json/v/barcia/corecss.svg)][latest-release]
+[![File size in bytes](https://img.shields.io/github/size/barcia/corecss/dist/core.min.css)][latest-release]
+[![License](https://img.shields.io/github/license/barcia/corecss.svg)][license]
 
-Standarize aims to be a **light, simple and solid foundation on which to build your CSS**. There are other similar projects that standarize is inspired by. The objective of standarize is to create a **simple base that unifies the most basic CSS common values of the main browsers**.
+CoreCSS aims to be a **light, simple and solid foundation on which to build your CSS**. There are other similar projects that CoreCSS is inspired by. The objective of CoreCSS is to create a **simple base that unifies the most basic CSS common values of the main browsers**.
 
 It's built trying to be deeply respectful with the **web standards** and with the **decisions of the different browsers**. Sometimes, default is good. I try to avoid overwriting a selector several times unnecessarily.
 
@@ -22,21 +22,21 @@ All contributions and opinions are welcome.
 
 
 ## Getting Started
-Choose how you want to use standarize:
+Choose how you want to use CoreCSS:
 
 ### Download
 [Last release][latest-release]
 
 ### NPM
   ```shell
-  npm install standarize --save-dev
+  npm install @barcia/corecss --save-dev
   ```
 
-  See [npmjs.com/package/standarize][npm]
+  See [npmjs.com/package/@barcia/corecss][npm]
 
 ### CDN
   ```html
-  <link rel="stylesheet" href="https://unpkg.com/standarize@{VERSION}">
+  <link rel="stylesheet" href="https://unpkg.com/@barcia/corecss@{VERSION}">
   ```
 
 
@@ -69,12 +69,12 @@ This project is under [MIT License][license]
 
 
 
-[repository]: https://github.com/barcia/standarize/
-[issues]: https://github.com/barcia/standarize/issues
-[releases]: https://github.com/barcia/standarize/releases
-[latest-release]: https://github.com/barcia/standarize/releases/latest
+[repository]: https://github.com/barcia/corecss/
+[issues]: https://github.com/barcia/corecss/issues
+[releases]: https://github.com/barcia/corecss/releases
+[latest-release]: https://github.com/barcia/corecss/releases/latest
 [license]: LICENSE
-[npm]: https://www.npmjs.com/package/standarize
+[npm]: https://www.npmjs.com/package/corecss
 
 [ivan-web]: https://barcia.dev
 [ivan-twitter]: https://twitter.com/ivarcia
