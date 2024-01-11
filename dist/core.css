@@ -1,7 +1,7 @@
 /** !
- * Standarize - A simple base for CSS
- * https://github.com/barcia/standarize
- * v6.0.0
+ * CoreCSS - A simple base for CSS
+ * https://github.com/barcia/corecss
+ * v6.1.0
  * Iván Barcia - https://barcia.dev
  * MIT License
  */
@@ -111,7 +111,7 @@
 
 /* TABLE */
 
-table {
+:where(table) {
 	max-width: 100%;
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -220,10 +220,6 @@ label[for],
 }
 
 /* ACCESSIBILITY */
-
-/**
- * https://github.com/barcia/standarize/issues/7
- */
 
 @media (prefers-reduced-motion: reduce) {
 	*,
