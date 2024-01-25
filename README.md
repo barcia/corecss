@@ -74,7 +74,7 @@ This project is under [MIT License][license]
 [releases]: https://github.com/barcia/corecss/releases
 [latest-release]: https://github.com/barcia/corecss/releases/latest
 [license]: LICENSE
-[npm]: https://www.npmjs.com/package/corecss
+[npm]: https://www.npmjs.com/package/@barcia/corecss
 
 [ivan-web]: https://barcia.dev
 [ivan-twitter]: https://twitter.com/ivarcia
